@@ -2,7 +2,7 @@ Instagram released a challenge similar to DARPA's Shredder Challenge... create a
 
 You can find more information about the challenge on the Instagram Engineering blog at http://instagram-engineering.tumblr.com/post/12651721845/instagram-engineering-challenge-the-unshredder
 
-If you'd like to check it out using your own images, download the project and follow these instructions:
+If you'd like to unshred your own images, download the project and follow these instructions:
 
 1. You'll need Processing... if you don't have it, download it at http://processing.org/download/
 
@@ -10,6 +10,6 @@ If you'd like to check it out using your own images, download the project and fo
 
 3. Load the unshred.pde vis Processing and find the keyPressed() function at the bottom.
 
-4. Edit the loadSourceImage calls to point to your image file names. Set the second parameter to "true".
+4. Edit the loadSourceImage() calls... set the first parameter to your image file name. Set the second parameter to "true".
 
 5. Run.
